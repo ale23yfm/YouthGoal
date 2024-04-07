@@ -1,0 +1,101 @@
+/*header*/
+.navbar {
+  background-color: #ebebe3;
+  line-height: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  align-content: right;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color: black;
+}
+
+a:active {
+  background-color: white;
+}
+
+/* cards */
+.card-img-top {
+  width: 300px;
+  height: 300px;
+  margin-inline: auto;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.row {
+  padding: 10px;
+  box-align: center;
+}
+
+.col {
+  align-items: center;
+}
+
+/* inscriere */
+.forms {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+.submit {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.class {
+  padding-right: 15px;
+}
+
+/* footer */
+.inscriere {
+  height: auto;
+}
+
+.footer-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
