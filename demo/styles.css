@@ -1,27 +1,59 @@
+/*body*/
+body{
+  background-color: #ebebe3;
+}
+
 /*header*/
-.navbar {
+nav {
   background-color: #ebebe3;
   line-height: 1%;
   display: flex;
   justify-content: space-between;
-  padding-right: 15px;
-  padding-left: 15px;
+  margin-inline: auto;
   align-items: center;
+}
+
+.container-fluid{
+  background-color: #ebebe3;
+}
+
+.logo{
+  display: flex;
+}
+
+@media (max-width: 576px) {
+  .card-job {
+    margin-bottom: 20px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 20px; 
+  }
 }
 
 ul {
   list-style-type: none;
   padding: 10px;
   display: flex;
-  align-content: right;
+  align-items: center;
+  justify-content: center;
 }
 
-li {
-  padding: 10px;
+ul li{
+  padding:0px 6px;
+}
+
+@media (max-width:700px){
+  nav,ul{
+    flex-direction:column;
+  }
 }
 
 a {
   color: black;
+  margin-inline: auto;
 }
 
 a:active {
@@ -29,6 +61,37 @@ a:active {
 }
 
 /* cards */
+.card-job {
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: #fbfbfb;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 16px;
+  box-shadow: 0px 1px 3px 1px #00000026;  
+  margin-inline: auto;
+}
+
+.card{
+  background-color: #fbfbfb;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 1px 3px 1px #00000026;  
+  margin-inline: auto;
+}
+
+.company-logo{
+  width: 100px;
+  margin-inline: auto;
+}
+
 .card-img-top {
   width: 300px;
   height: 300px;
@@ -51,7 +114,7 @@ img {
 /* inscriere */
 .forms {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #ebebe3;
   padding: 20px;
 }
 
