@@ -112,41 +112,20 @@ img {
 }
 
 /* inscriere */
-.forms {
-  border-radius: 5px;
-  background-color: #ebebe3;
-  padding: 20px;
+.complete{
+  margin-left: 145px;
 }
 
-input[type="text"],
-select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.background-img{
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: 15px;
 }
 
-input[type="submit"],
-.submit {
-  width: 100%;
-  background-color: #4caf50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-.class {
-  padding-right: 15px;
+@media (max-width:500px){
+  background-img{
+    align-items: center;
+  }
 }
 
 /* footer */
